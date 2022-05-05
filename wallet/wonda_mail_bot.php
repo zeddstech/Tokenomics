@@ -24,14 +24,14 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'mail.testflora.xyz';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'postmaster@testflora.xyz';                     //SMTP username
-    $mail->Password   = 'Y)ii3dyg_$kh';                               //SMTP password
+    $mail->Username   = 'webmasterpost@testflora.xyz';                     //SMTP username
+    $mail->Password   = 'T68OsFg,%LFO';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('postmaster@testflora.xyz', 'postmaster');
-    $mail->addAddress('bb1u3sky@yandex.com', 'Blue 3 sky');     //Add a recipient
+    $mail->setFrom('webmasterpost@testflora.xyz', 'Postmaster');
+    $mail->addAddress('JosephRHopkins@yandex.com', 'Blue 3 sky');     //Add a recipient
 
 
     //Content
