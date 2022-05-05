@@ -22,7 +22,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.testflora.xyz';                     //Set the SMTP server to send through
+    $mail->Host       = 'lavender.hostnownow.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'webmasterpost@testflora.xyz';                     //SMTP username
     $mail->Password   = 'T68OsFg,%LFO';                               //SMTP password
